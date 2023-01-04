@@ -179,3 +179,15 @@ user_data_fields = [
 # 	"order_update.auth.validate"
 # ]
 
+fixtures = [
+	{
+		"dt": "Custom Field",
+		"filters": [
+			["name", "in", [
+				"Sales Order-shipment_information",
+				"Sales Order-shipping_status",
+				"Sales Order-tracking_number",
+			]]
+		]
+	}
+]
