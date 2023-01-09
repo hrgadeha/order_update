@@ -18,14 +18,16 @@
   "section_break_9",
   "download_template",
   "column_break_11",
-  "import_file"
+  "import_file",
+  "section_break_14",
+  "searched_order_list"
  ],
  "fields": [
   {
    "fieldname": "tool_notes",
    "fieldtype": "HTML",
    "label": "Tool Notes",
-   "options": "<p>Use this tool to perform the following actions</p><p>\n</p><ul>\n<li>To Update Order Status</li>\n<li>To Update Shipping Details</li>\n<li><b>Select Appropriate Filters to get records</b></li>\n</ul>"
+   "options": "<p>Use this tool to perform the following actions</p><p>\n</p><ul>\n<li>To Update Order Status</li>\n<li>To Update Shipping Details</li>\n<li><b>Select Appropriate Filters to get records</b></li>\n<li><b>Process button will update shipping status and tracking number for orders.</b></li>\n</ul>"
   },
   {
    "fieldname": "section_break_2",
@@ -87,12 +89,22 @@
    "fieldtype": "Link",
    "label": "Company",
    "options": "Company"
+  },
+  {
+   "fieldname": "section_break_14",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "searched_order_list",
+   "fieldtype": "Table",
+   "label": "Searched Order List",
+   "options": "Searched Order List"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2023-01-04 23:14:53.182023",
+ "modified": "2023-01-09 17:45:56.497297",
  "modified_by": "Administrator",
  "module": "Order Update",
  "name": "Search and Update Orders",
